@@ -1,6 +1,6 @@
 .container-fluid {
-  margin-top: 20px;
-  margin-bottom: 20px;
+
+  background: #FFF url('img/texture.jpg') repeat;
 }
 .container-fluid div.div-1 {
   height: 42px;
@@ -36,6 +36,7 @@
 }
 
 #maincontent{
+
 	padding-right: 20px;
 	padding-left: 20px;
 	border: 1px solid #d4d4d4;
@@ -46,8 +47,8 @@
 	-moz-border-radius-topleft: 50px;
 	-moz-border-radius-bottomright: 50px;
 	border-radius: 1px;
-	border-top-left-radius: 50px;
-	border-bottom-right-radius: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
 	*zoom: 1;
 	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
@@ -80,4 +81,8 @@
 }
 #footer2{
 	margin-top:20px;
+	margin-bottom:20px
 }
+
+
+/* Keyframes */
